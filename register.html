@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>register data</title>
+    </head>
+    <body>
+        <form action="store.html" method="post">
+
+            <div>
+                <label for="nama">nama:</label>
+                <input type="text" id="nama" name="nama" placeholder="nama anda" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="pw">password</label>
+                <input type="password" id="pw" name="pw" maxlength="8" placeholder="password" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="email">email</label>
+                <input type="email" id="email" name="email" placeholder="budi@gmail.com">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="nohp">nomor hp</label>
+                <input type="tel" id="nohp" name="nohp" placeholder="nomor hp" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="tgl">tanggal lahir</label>
+                <input type="date" id="tgl" name="nohp" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="gender">titel</label>
+                <label for="male">male</label>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="female">female</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="quaso">quaso</label>
+                <input type="radio" name="gender" id="quaso" value="quaso">
+            </div>
+
+            <br>
+
+            <div>
+                <lable for="payment">pembayaran</lable>
+                <select id="payment" name="payment">
+                    <option value="Dana">Dana</option>
+                    <option value="Gopay">Gopay</option>
+                    <option value="Paypal">Paypal</option>
+                </select>
+            </div>
+
+            <br>
+
+            <div>
+                <lable for="confirm">Saya berusia 13 tahun keatas dan menerima segala ketentuan</lable>
+                <input type="checkbox" id="confirm" name="confirm">
+            </div>
+
+            <br>
+
+            <div>
+                <input type="reset">
+            </div>
+
+            <br>
+
+            <div>
+                <input type="submit">
+            </div>
+        </form>
+    </body>
+</html>
